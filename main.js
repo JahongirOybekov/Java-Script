@@ -394,3 +394,17 @@
 
 
 // 16
+
+// let son;
+// do {
+//     son = parseInt(prompt("Son kiriting (to'xtatish uchun -1 kiriting):"));
+
+//     if (!isNaN(son) && son !== -1) {
+//         console.log("Siz kiritgan son:", son);
+//     }
+// } while (son !== -1);
+
+// console.log("Dastur to'xtatildi.");
+
+// 17
+
