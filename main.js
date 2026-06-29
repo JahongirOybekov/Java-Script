@@ -408,3 +408,10 @@
 
 // 17
 
+const massiv =  [0,1,2,3,4]; 
+
+if (massiv[2] !== undefined) {
+    console.log("Massivning 2-indeksidagi element:", massiv[2]);
+} else {
+    console.log("Massivda 2-indeksli element mavjud emas!");
+}
