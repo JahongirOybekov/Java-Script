@@ -408,10 +408,28 @@
 
 // 17
 
-const massiv =  [0,1,2,3,4]; 
+// const massiv =  [0,1,2,3,4]; 
 
-if (massiv[2] !== undefined) {
-    console.log("Massivning 2-indeksidagi element:", massiv[2]);
-} else {
-    console.log("Massivda 2-indeksli element mavjud emas!");
-}
+// if (massiv[2] !== undefined) {
+//     console.log("Massivning 2-indeksidagi element:", massiv[2]);
+// } else {
+//     console.log("Massivda 2-indeksli element mavjud emas!");
+// }
+
+// 18
+
+// const son = parseInt(prompt("Ixtiyoriy son kiriting:"));
+// if (!isNaN(son)) {
+
+//     if (son % 3 === 0) {
+//         console.log(`${son} soni 3 ga qoldiqsiz bo'linadi.`);
+//     } else {
+//         console.log(`${son} soni 3 ga bo'linmaydi. Qoldiq: ${son % 3}`);
+//     }
+
+// } else {
+//     console.log("Iltimos, to'g'ri son kiriting!");
+// }
+
+// 19
+
