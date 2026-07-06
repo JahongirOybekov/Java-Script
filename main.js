@@ -443,3 +443,11 @@
 // let kattalar = foydalanuvchilar.filter(faydalanuvchi => faydalanuvchi.yosh > 18);
 // console.log(kattalar); 
 
+// 11-topshiriq (forEach)
+// let narxlar = [1000, 2500, 3200, 4700];
+// forEach() yordamida har bir narxga 15% QQS qo'shib, natijani "Narx: XXXX so'm" formatida chop eting
+// (asl massivni o'zgartirmasdan).
+// let narxlar = [1000, 2500, 3200, 4700];
+// narxlar.forEach((son, i) => {
+//    console.log(`${i}-indeksdagi mahsulot narxi ${son*15/100+son} so'm`)
+// })
