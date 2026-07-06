@@ -433,3 +433,13 @@
 
 // 19
 
+// let baholar = [5,4,5,3,5,2];
+
+// let oxirgiIndeks = baholar.lastIndexOf(5);
+// console.log(oxirgiIndeks); 
+
+// let foydalanuvchilar = [{ ism: "Ali", yosh: 17 }, { ism: "Vali", yosh: 22 }, { ism: "Guli", yosh: 15 }];
+
+// let kattalar = foydalanuvchilar.filter(faydalanuvchi => faydalanuvchi.yosh > 18);
+// console.log(kattalar); 
+
