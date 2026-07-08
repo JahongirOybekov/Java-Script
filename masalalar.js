@@ -1,7 +1,19 @@
-1-topshiriq (flat)
+// 1-topshiriq (flat)
 // Ichma-ich joylashgan [1, [2, [3, [4, 5]]], 6] massivini to'liq (Infinity chuqurlikda) tekislang.
 // console.log([1, [2, [3, [4, 5]]], 6].flat(Infinity))
 
-let arr = [1, [2, [3, [4, 5]]], 6];
-while (arr.some(Array.isArray)) arr = [].concat(...arr);
-console.log(arr);
+// const nestedArray = [1, [2, [3, [4, 5]]], 6];
+// const flattenedArray = nestedArray.flat(Infinity);
+
+// console.log(flattenedArray);
+
+// 2-topshiriq (push)
+// Bo'sh "savat" massivi yarating. Foydalanuvchi tanlagan 3 ta mahsulot nomini (o'zingiz kiriting)
+// push() yordamida qo'shing va oxirida savatdagi mahsulotlar sonini chop eting.
+let mahsulotlar = []
+let mahsulot;
+while (mahsulotlar.length < 3) {
+   mahsulot = prompt("Mahsulot nomini kiriting!: ")
+   mahsulotlar.push(mahsulot)
+}
+console.log(mahsulotlar)
