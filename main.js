@@ -451,3 +451,5 @@
 // narxlar.forEach((son, i) => {
 //    console.log(`${i}-indeksdagi mahsulot narxi ${son*15/100+son} so'm`)
 // })
+
+
