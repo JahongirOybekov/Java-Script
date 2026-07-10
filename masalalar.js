@@ -366,3 +366,157 @@
 // let harakatlar = [0, 1, 0, 0, 1, 0, 1];
 // Oxirgi "1" raqami qaysi pozitsiyada turganini lastIndexOf() bilan aniqlang va shu pozitsiyadan
 // keyingi barcha elementlarni slice() bilan ajratib chop eting.
+
+// let harakatlar =[0, 1, 0, 0, 1, 0, 1];
+// let oxirgiIndeks = harakatlar.lastIndexOf(1);
+// let natija = harakatlar.slice(oxirgiIndeks + 1);
+// console.log(natija);
+
+
+// 37-topshiriq (filter)
+// let sonlar = [12, 5, 8, 130, 44, 3, 99];
+// filter() yordamida faqat 2 xonali sonlardan iborat yangi massiv hosil qiling.
+
+// let sonlar =[12, 5, 8, 130, 44, 3, 99];
+// let ikkiXonali = sonlar.filter(son => son >= 10 && son <= 99);
+// console.log(ikkiXonali);
+
+
+// 38-topshiriq (findLastIndex)
+// let logNooma = ["info", "error", "info", "error", "warning"];
+// findLastIndex() yordamida oxirgi "error" yozuvining indeksini toping va undan keyingi barcha
+// yozuvlarni chop eting.
+
+// let logNooma = ["info", "error", "info", "error", "warning"];
+// let oxirgiErrorIndex = logNooma.findLastIndex(log => log === "error");
+// let keyingiLoglar = logNooma.slice(oxirgiErrorIndex + 1);
+// console.log(keyingiLoglar); 
+
+
+
+// 39-topshiriq (reduce)
+// let sozlar = ["JavaScript", "massiv", "metodlari"];
+// reduce() yordamida barcha so'zlardagi umumiy harflar sonini hisoblang.
+
+// let sozlar = ["JavaScript", "massiv", "metodlari"];
+// let jamiHarflar = sozlar.reduce((sum, soz) => sum + soz.length, 0);
+// console.log(jamiHarflar); 
+
+
+// 40-topshiriq (find)
+// let ishchilar = [{ism:"Bek", staj:2}, {ism:"Anvar", staj:7}, {ism:"Dilnoza", staj:5}];
+// Staji 5 yildan ko'p bo'lgan birinchi ishchini find() yordamida toping.
+
+// let ishchilar = [{ism:"Bek", staj:2}, {ism:"Anvar", staj:7}, {ism:"Dilnoza", staj:5}];
+// let tajribaliIshchi = ishchilar.find(ishchi => ishchi.staj > 5);
+// console.log(tajribaliIshchi);
+
+
+// 41-topshiriq (flat)
+// let matritsa = [[1,2,3],[4,5,6],[7,8,9]];
+// flat() yordamida matritsani bir qatorli massivga aylantirib, reduce() bilan yig'indisini toping.
+
+// let matritsa = [
+//   [1, 2, 3],
+//   [4, 5, 6],
+//   [7, 8, 9],
+// ];
+// let birQatorliMassiv = matritsa.flat(Infinity);
+// let yigindi = birQatorliMassiv.reduce((acc, i) => acc + i, 0);
+// console.log(birQatorliMassiv);
+// console.log(yigindi);
+
+
+// 42-topshiriq (push)
+// let log = [];
+// 1 dan 20 gacha bo'lgan sonlar orasidan faqat 3 ga bo'linadiganlarini push() bilan log massiviga qo'shing.
+
+// let log = [];
+// for (let i = 1; i <= 20; i++) {
+//   if (i % 3 === 0) {
+//     log.push(i);
+//   }
+// }
+// console.log(log);
+
+
+// 43-topshiriq (findIndex)
+// let parollar = ["12345", "qwerty", "Str0ng!Pass", "abcdef"];
+// Uzunligi 8 dan katta bo'lgan birinchi parolning indeksini findIndex() bilan toping.
+
+// let parollar = ["12345", "qwerty", "Str0ng!Pass", "abcdef"];
+// let index = parollar.findIndex(parol => parol.length > 8);
+// console.log(index);
+
+
+// 44-topshiriq (splice)
+// let hafta = ["Dush", "Sesh", "Chor", "Pay", "Juma", "Shan", "Yak"];
+// splice() yordamida ish kunlarini (Dush-Juma) dam olish kunlaridan (Shan-Yak) alohida
+// massivlarga ajrating (asl massivni o'zgartirib).
+
+// let hafta = ["Dush", "Sesh", "Chor", "Pay", "Juma", "Shan", "Yak"];
+// let damOlishKunlari = hafta.splice(5);
+// console.log(hafta);            
+// console.log(damOlishKunlari); 
+
+
+// 45-topshiriq (keys)
+// let arr = ["a", "b", "c", "d", "e"];
+// keys() iteratorini array ga aylantirib (Array.from), teskari tartibda chop eting.
+
+// let arr = ["a", "b", "c", "d", "e"];
+// let indekslar = Array.from(arr.keys()).reverse();
+// console.log(indekslar);
+
+
+// 46-topshiriq (pop)
+// let tarix = ["sahifa1", "sahifa2", "sahifa3"];
+// Brauzer tarixi kabi: pop() bilan oxirgi sahifani oling va uni "joriy sahifa" deb chop eting;
+// agar massiv bo'sh bo'lib qolsa "Tarix bo'sh" deb chiqaring.
+
+// let tarix = ["sahifa1", "sahifa2", "sahifa3"];
+// let joriySahifa = tarix.pop();
+// console.log(`Joriy sahifa: ${joriySahifa}`); 
+// if (tarix.length === 0) console.log("Tarix bo'sh");
+
+
+// 47-topshiriq (reduceRight)
+// let bosqichlar = ["boshlash", "tekshirish", "yakunlash"];
+// reduceRight() yordamida bosqichlarni " <- " belgisi bilan teskari tartibda birlashtiring.
+
+// let bosqichlar = ["boshlash", "tekshirish", "yakunlash"];
+// let natija = bosqichlar.reduceRight((acc, b) => acc + " <- " + b);
+// console.log(natija);
+
+
+// 48-topshiriq (unshift)
+// let yutuqlar = ["2-o'rin"];
+// unshift() yordamida "1-o'rin" yutug'ini ro'yxat boshiga qo'shing, so'ng massiv uzunligini
+// tekshirib "Yutuqlar soni: X" deb chop eting.
+
+// let yutuqlar = ["2-o'rin"];
+// yutuqlar.unshift("1-o'rin");
+// console.log(`Yutuqlar soni: ${yutuqlar.length}`);
+
+
+// 49-topshiriq (values)
+// let baholar = [2, 3, 4, 5];
+// values() yordamida barcha baholarning ko'paytmasini hisoblang (tsikl bilan).
+
+// let baholar =[2, 3, 4, 5];
+// let kopaytma = 1;
+// for (let baho of baholar.values()) {
+//   kopaytma *= baho;
+// }
+// console.log(kopaytma);
+
+
+// 50-topshiriq (findLast)
+// let sonlar = [3, 15, 8, 21, 6, 9];
+// findLast() yordamida 5 ga qoldiqsiz bo'linadigan oxirgi sonni toping.
+
+let sonlar =[3, 15, 8, 21, 6, 9];
+let oxirgiBeshgaBolinadigan = sonlar.findLast(son => son % 5 === 0);
+console.log(oxirgiBeshgaBolinadigan);
+
+
