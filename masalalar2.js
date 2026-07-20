@@ -703,18 +703,27 @@
 // Input: "cba"
 // Kutilyotgan natija: "abc"
 
-let arr = "cba"
-let a = arr.split("").sort().join("")
-console.log(a);
+// let arr = "cba"
+// let a = arr.split("").sort().join("")
+// console.log(a);
 
 
 // 3.36. Berilgan matnning faqat toq indekslaridagi belgilarini oling.
 // Input: "salom"
 // Kutilyotgan natija: "ao"
 
+// let natija = "";
+// for (let i = 1; i < matn.length; i += 2) {
+//     natija += matn.charAt(i);
+// }
+// console.log(natija); 
+
+
 // 3.37. Berilgan matndagi barcha " " belgilarini "|" ga almashtiring.
 // Input: "salom dunyo"
 // Kutilyotgan natija: "salom|dunyo"
+
+
 
 // 3.38. Berilgan matnni 4 ta belgidan iborat qilib, chapdan "0" bilan to'ldiring.
 // Input: "12"
