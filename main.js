@@ -516,11 +516,28 @@ const shoxruzbek = {
   inglizTiliniOrganmoqda: true,
   baholari: [5, 5, 4, 5, 5]
 };
-console.log(shoxruzbek.boyi)
-console.log(shoxruzbek.baholari)
-console.log(shoxruzbek.fuqaroligi)
-console.log(shoxruzbek.jins)
-console.log(shoxruzbek.orzusi)
-console.log(shoxruzbek.dostlariSoni)
-console.log(shoxruzbek.kozRangi)
-console.log(Object.entries(shoxruzbek)[496])
+// console.log(shoxruzbek.boyi)
+// console.log(shoxruzbek.baholari)
+// console.log(shoxruzbek.fuqaroligi)
+// console.log(shoxruzbek.jins)
+// console.log(shoxruzbek.orzusi)
+// console.log(shoxruzbek.dostlariSoni)
+// console.log(shoxruzbek.kozRangi)
+// console.log(Object.entries(shoxruzbek)[496])
+
+
+// const obyekt = {
+//   ism: "Shoxruzbek",
+//   kasbi: "bekorchi",
+//   arr: [1, 2, 3, 4, 5, 6],
+//   suxrob: function () {
+//     for (let i of this.arr) {
+//       if (i % 2 == 0) {
+//         console.log(i)
+//       }
+//     }
+//   },
+//   arrowFunksiya: () => {
+//     console.log(this.kasbi)
+//   }
+// }

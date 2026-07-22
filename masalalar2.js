@@ -723,16 +723,36 @@
 // Input: "salom dunyo"
 // Kutilyotgan natija: "salom|dunyo"
 
+// let arr = "salom dunyo"
+// console.log(arr.replaceAll(" ", "|"));
 
 
 // 3.38. Berilgan matnni 4 ta belgidan iborat qilib, chapdan "0" bilan to'ldiring.
 // Input: "12"
 // Kutilyotgan natija: "0012"
 
+// let arr = "12"
+// console.log(arr.padStart("4", "0"));
+
+
 // 3.39. Berilgan matnning uzunligini hisoblang (probelsiz).
 // Input: "salom dunyo"
 // Kutilyotgan natija: 9
 
+// let arr ="salom dunyo"
+// console.log(arr.replaceAll(" ", "").length);
+
+
 // 3.40. Berilgan matn ichidagi barcha "l" harflarini indekslarini toping.
 // Input: "hello"
 // Kutilyotgan natija: [2, 3]
+
+// let inputStr = "hello";
+// let indekslar = [];
+// for (let i = 0; i < inputStr.length; i++) {
+//     if (inputStr[i] === "l") indekslar.push(i);
+// }
+// console.log(indekslar);
+
+
+
