@@ -541,3 +541,5 @@ const shoxruzbek = {
 //     console.log(this.kasbi)
 //   }
 // }
+
+
