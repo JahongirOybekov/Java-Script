@@ -324,90 +324,96 @@ function masala27(son) {
 
 
 // 28-masala: [string] Berilgan matndagi unli harflar (a, o, e, i, u, ...)
-    // sonini hisoblovchi funksiya yozing.
-    //* chatgpt
-    function masala28(matn) {
-        let unli = matn.toLowerCase().match(/[aeiou]/g);
-        return unli ? unli.length : 0;
-    }
+// sonini hisoblovchi funksiya yozing.
+//* chatgpt
+function masala28(matn) {
+    let unli = matn.toLowerCase().match(/[aeiou]/g);
+    return unli ? unli.length : 0;
+}
 
-    // console.log(masala28("salom"));
-
-
-    // 29-masala: [string] Ikkita so'zni birlashtirib, orasiga bo'sh joy
-    // qo'yib qaytaruvchi funksiya yozing.
-    function masala29(soz1, soz2) {
-        return `${soz1} ${soz2}`;
-    }
-    // console.log(masala29("salom", "dunyo"));
+// console.log(masala28("salom"));
 
 
-    // 30-masala: [array] Massivda berilgan element mavjudligini
-    // tekshiruvchi funksiya yozing (true/false).
-    function masala30(massiv, element) {
-        for (let i = 0; i < massiv.length; i++) {
-            if (massiv[i] === element) {
-                return true
-            }
-        }
-        return false
-    }
-    // console.log(masala30([1, 2, 3, 4, 5], 8));
-
-    // 31-masala: [array] Massiv ichidagi elementlar sonini
-    // (uzunligini) qaytaruvchi funksiya yozing.
-    function masala31(massiv) {
-        return massiv.length
-    }
-    // console.log(masala31("Salom"));
+// 29-masala: [string] Ikkita so'zni birlashtirib, orasiga bo'sh joy
+// qo'yib qaytaruvchi funksiya yozing.
+function masala29(soz1, soz2) {
+    return `${soz1} ${soz2}`;
+}
+// console.log(masala29("salom", "dunyo"));
 
 
-    // 32-masala: [if-else] Berilgan baho (0-100) ga qarab harf baho
-    // ("A", "B", "C", "D", "F") qaytaruvchi funksiya yozing.
-    function masala32(baho) {
-        if (baho >= 90 && baho <= 100) {
-            return "A"
-        } else if (baho >= 80) {
-            return "B"
-        } else if (baho >= 70) {
-            return "C"
-        } else if (baho >= 60) {
-            return "D"
-        } else if (baho >= 0) {
-            return "F"
-        } else {
-            "Notogri baxo"
+// 30-masala: [array] Massivda berilgan element mavjudligini
+// tekshiruvchi funksiya yozing (true/false).
+function masala30(massiv, element) {
+    for (let i = 0; i < massiv.length; i++) {
+        if (massiv[i] === element) {
+            return true
         }
     }
-    // console.log(masala32(100));
+    return false
+}
+// console.log(masala30([1, 2, 3, 4, 5], 8));
+
+// 31-masala: [array] Massiv ichidagi elementlar sonini
+// (uzunligini) qaytaruvchi funksiya yozing.
+function masala31(massiv) {
+    return massiv.length
+}
+// console.log(masala31("Salom"));
 
 
-    // 33-masala: [for] Berilgan sonning barcha bo'luvchilarini
-    // topib, massiv ko'rinishida qaytaruvchi funksiya yozing.
-    function masala33(son) {
-        let natija = [];
-        for (let i = 1; i <= son; i++) {
-            if (son % i === 0) {
-                natija.push(i);
-            }
+// 32-masala: [if-else] Berilgan baho (0-100) ga qarab harf baho
+// ("A", "B", "C", "D", "F") qaytaruvchi funksiya yozing.
+function masala32(baho) {
+    if (baho < 0 || baho > 100 || typeof baho !== 'number') {
+        return "Noto'g'ri ball kiritildi";
+    } else if (baho >= 90) {
+        return "A";
+    } else if (baho >= 80) {
+        return "B";
+    } else if (baho >= 70) {
+        return "C";
+    } else if (baho >= 60) {
+        return "D";
+    } else {
+        return "F";
+    }
+}
+console.log(masala32(95));
+console.log(masala32(82));
+console.log(masala32(74));
+console.log(masala32(60));
+console.log(masala32(45));
+console.log(masala32(105));
+
+
+
+// 33-masala: [for] Berilgan sonning barcha bo'luvchilarini
+// topib, massiv ko'rinishida qaytaruvchi funksiya yozing.
+function masala33(son) {
+    let natija = [];
+    for (let i = 1; i <= son; i++) {
+        if (son % i === 0) {
+            natija.push(i);
         }
-
-        return natija;
-    }
-    // console.log(masala33(12));
-
-    // 34-masala: [do-while] 1 dan boshlab sonlarni sanab, ularning
-    // yig'indisi berilgan chegaradan oshguncha davom ettiruvchi
-    // funksiya yozing (necha ta son kerak bo'lganini qaytaring).
-    //* chatgpt
-    function masala34(chegara) { }
-    // 35-masala: [object] Ikkita object'ni birlashtirib, yangi
-    // object qaytaruvchi funksiya yozing.
-    function masala35(obj1, obj2) {
-        return { ...obj1, ...obj2 };
     }
 
-    let obj1 = { ism: "Ali", yosh: 20 };
-    let obj2 = { kasb: "Dasturchi", shahar: "Toshkent" };
+    return natija;
+}
+// console.log(masala33(12));
+
+// 34-masala: [do-while] 1 dan boshlab sonlarni sanab, ularning
+// yig'indisi berilgan chegaradan oshguncha davom ettiruvchi
+// funksiya yozing (necha ta son kerak bo'lganini qaytaring).
+//* chatgpt
+function masala34(chegara) { }
+// 35-masala: [object] Ikkita object'ni birlashtirib, yangi
+// object qaytaruvchi funksiya yozing.
+function masala35(obj1, obj2) {
+    return { ...obj1, ...obj2 };
+}
+
+let obj1 = { ism: "Ali", yosh: 20 };
+let obj2 = { kasb: "Dasturchi", shahar: "Toshkent" };
 
 // console.log(masala35(obj1, obj2));
