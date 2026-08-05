@@ -128,7 +128,8 @@
 
 //^ 20-topshiriq JavaScriptdagi maksimal xavfsiz butun sonni (MAX_SAFE_INTEGER) konsolga chiqaring.
 
-
+const maksimalXavfsizSon = Number.MAX_SAFE_INTEGER;
+console.log("JavaScript-dagi maksimal xavfsiz butun son:", maksimalXavfsizSon);
 
 //^ 21-topshiriq 42 soni butun son ekanligini tekshiring va natijani (true/false) konsolga chiqaring.
 
