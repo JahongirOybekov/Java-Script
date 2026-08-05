@@ -70,7 +70,11 @@
 
 //^ 11-topshiriq 4.7 sonini eng yaqin butun songa yaxlitlang va natijani konsolga chiqaring.
 
+const aslSon = 4.7;
 
+// 2. Math.round() funksiyasi yordamida eng yaqin butun songa yaxlitlash
+const yaxlitlanganSon = Math.round(aslSon);
+console.log(aslSon + " sonini eng yaqin butun songa yaxlitlash natijasi:", yaxlitlanganSon);
 
 //^ 12-topshiriq 4.9 sonini pastga (floor) yaxlitlang va natijani konsolga chiqaring.
 
