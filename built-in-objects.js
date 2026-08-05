@@ -111,7 +111,7 @@
 // const natija = Math.pow(asos, daraja);
 // console.log(asos + " ning " + daraja + "-darajasi:", natija);
 
-//^ 18-topshiriq 16 ning kvadrat ildizini toping va konsolga chiqaring.
+// ^ 18-topshiriq 16 ning kvadrat ildizini toping va konsolga chiqaring.
 
 
 
