@@ -139,8 +139,8 @@
 
 //^ 22-topshiriq "salom" matnini Number() yordamida songa o'girib, natija NaN ekanligini tekshiring va konsolga chiqaring.
 
-const natija = Number("salom");
-console.log(Number.isNaN(natija));
+// const natija = Number("salom");
+// console.log(Number.isNaN(natija));
 
 //^ 23-topshiriq Infinity qiymati cheksiz son ekanligini tekshiring va natijani konsolga chiqaring.
 
