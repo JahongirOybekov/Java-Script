@@ -82,6 +82,8 @@
 
 //^ 13-topshiriq 4.1 sonini yuqoriga (ceil) yaxlitlang va natijani konsolga chiqaring.
 
+
+
 //^ 14-topshiriq [5, 10, 3, 8] massividagi eng katta sonni toping va konsolga chiqaring.
 
 //^ 15-topshiriq [5, 10, 3, 8] massividagi eng kichik sonni toping va konsolga chiqaring.
