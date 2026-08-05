@@ -133,6 +133,8 @@ console.log("JavaScript-dagi maksimal xavfsiz butun son:", maksimalXavfsizSon);
 
 //^ 21-topshiriq 42 soni butun son ekanligini tekshiring va natijani (true/false) konsolga chiqaring.
 
+
+
 //^ 22-topshiriq "salom" matnini Number() yordamida songa o'girib, natija NaN ekanligini tekshiring va konsolga chiqaring.
 
 //^ 23-topshiriq Infinity qiymati cheksiz son ekanligini tekshiring va natijani konsolga chiqaring.
