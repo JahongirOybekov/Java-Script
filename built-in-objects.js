@@ -80,8 +80,6 @@ const aslSon = 4.9;
 
 // 2. Math.floor() funksiyasi yordamida har doim pastga (kichik butun songa) yaxlitlash
 const pastgaYaxlitlangan = Math.floor(aslSon);
-
-// 3. Natijani konsolga tushunarli matn bilan chiqarish
 console.log(aslSon + " sonini pastga (floor) yaxlitlash natijasi:", pastgaYaxlitlangan);
 
 //^ 13-topshiriq 4.1 sonini yuqoriga (ceil) yaxlitlang va natijani konsolga chiqaring.
