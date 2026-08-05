@@ -100,6 +100,8 @@
 
 //^ 16-topshiriq -7 sonining absolut (modul) qiymatini toping va konsolga chiqaring.
 
+
+
 //^ 17-topshiriq 2 ning 3-darajasini hisoblang va konsolga chiqaring.
 
 //^ 18-topshiriq 16 ning kvadrat ildizini toping va konsolga chiqaring.
