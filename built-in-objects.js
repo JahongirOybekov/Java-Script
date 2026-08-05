@@ -100,11 +100,13 @@
 
 //^ 16-topshiriq -7 sonining absolut (modul) qiymatini toping va konsolga chiqaring.
 
-const manfiySon = -7;
-const absolutQiymat = Math.abs(manfiySon);
-console.log(manfiySon + " sonining absolut (modul) qiymati:", absolutQiymat);
+// const manfiySon = -7;
+// const absolutQiymat = Math.abs(manfiySon);
+// console.log(manfiySon + " sonining absolut (modul) qiymati:", absolutQiymat);
 
 //^ 17-topshiriq 2 ning 3-darajasini hisoblang va konsolga chiqaring.
+
+
 
 //^ 18-topshiriq 16 ning kvadrat ildizini toping va konsolga chiqaring.
 
