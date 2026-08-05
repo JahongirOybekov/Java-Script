@@ -133,7 +133,9 @@ console.log("JavaScript-dagi maksimal xavfsiz butun son:", maksimalXavfsizSon);
 
 //^ 21-topshiriq 42 soni butun son ekanligini tekshiring va natijani (true/false) konsolga chiqaring.
 
-
+const son = 42;
+const butunSonmi = Number.isInteger(son);
+console.log(son + " soni butun sonmi?:", butunSonmi);
 
 //^ 22-topshiriq "salom" matnini Number() yordamida songa o'girib, natija NaN ekanligini tekshiring va konsolga chiqaring.
 
