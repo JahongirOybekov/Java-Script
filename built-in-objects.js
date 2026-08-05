@@ -88,9 +88,9 @@
 
 //^ 14-topshiriq [5, 10, 3, 8] massividagi eng katta sonni toping va konsolga chiqaring.
 
-const sonlar =[5, 10, 3, 8];
-const engKattaSon = Math.max(...sonlar);
-console.log("Massivdagi eng katta son:", engKattaSon);
+// const sonlar =[5, 10, 3, 8];
+// const engKattaSon = Math.max(...sonlar);
+// console.log("Massivdagi eng katta son:", engKattaSon);
 
 //^ 15-topshiriq [5, 10, 3, 8] massividagi eng kichik sonni toping va konsolga chiqaring.
 
