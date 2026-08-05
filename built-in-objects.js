@@ -65,8 +65,8 @@
 
 //^ 10-topshiriq 0 va 1 oralig'ida tasodifiy son hosil qiling va konsolga chiqaring.
 
-const tasodifiySon = Math.random();
-console.log("0 va 1 oralig'idagi tasodifiy son:", tasodifiySon);
+// const tasodifiySon = Math.random();
+// console.log("0 va 1 oralig'idagi tasodifiy son:", tasodifiySon);
 
 //^ 11-topshiriq 4.7 sonini eng yaqin butun songa yaxlitlang va natijani konsolga chiqaring.
 
