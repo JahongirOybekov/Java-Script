@@ -104,9 +104,12 @@
 // const absolutQiymat = Math.abs(manfiySon);
 // console.log(manfiySon + " sonining absolut (modul) qiymati:", absolutQiymat);
 
-//^ 17-topshiriq 2 ning 3-darajasini hisoblang va konsolga chiqaring.
+// ^ 17-topshiriq 2 ning 3-darajasini hisoblang va konsolga chiqaring.
 
-
+const asos = 2;
+const daraja = 3;
+const natija = Math.pow(asos, daraja);
+console.log(asos + " ning " + daraja + "-darajasi:", natija);
 
 //^ 18-topshiriq 16 ning kvadrat ildizini toping va konsolga chiqaring.
 
