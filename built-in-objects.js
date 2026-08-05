@@ -106,12 +106,14 @@
 
 // ^ 17-topshiriq 2 ning 3-darajasini hisoblang va konsolga chiqaring.
 
-const asos = 2;
-const daraja = 3;
-const natija = Math.pow(asos, daraja);
-console.log(asos + " ning " + daraja + "-darajasi:", natija);
+// const asos = 2;
+// const daraja = 3;
+// const natija = Math.pow(asos, daraja);
+// console.log(asos + " ning " + daraja + "-darajasi:", natija);
 
 //^ 18-topshiriq 16 ning kvadrat ildizini toping va konsolga chiqaring.
+
+
 
 //^ 19-topshiriq 27 ning kub ildizini toping va konsolga chiqaring.
 
