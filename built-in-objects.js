@@ -76,9 +76,9 @@
 
 //^ 12-topshiriq 4.9 sonini pastga (floor) yaxlitlang va natijani konsolga chiqaring.
 
-const aslSon = 4.9;
-const pastgaYaxlitlangan = Math.floor(aslSon);
-console.log(aslSon + " sonini pastga (floor) yaxlitlash natijasi:", pastgaYaxlitlangan);
+// const aslSon = 4.9;
+// const pastgaYaxlitlangan = Math.floor(aslSon);
+// console.log(aslSon + " sonini pastga (floor) yaxlitlash natijasi:", pastgaYaxlitlangan);
 
 //^ 13-topshiriq 4.1 sonini yuqoriga (ceil) yaxlitlang va natijani konsolga chiqaring.
 
