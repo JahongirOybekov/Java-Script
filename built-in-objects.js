@@ -16,11 +16,13 @@
 
 //^ 3-topshiriq Hozirgi oy raqamini (0-11 oralig'ida) konsolga chiqaruvchi dastur yozing.
 
-const hozirgiVaqt = new Date();
-const oyRaqami = hozirgiVaqt.getMonth();
-console.log("Hozirgi oy raqami (0-11):", oyRaqami);
+// const hozirgiVaqt = new Date();
+// const oyRaqami = hozirgiVaqt.getMonth();
+// console.log("Hozirgi oy raqami (0-11):", oyRaqami);
 
 //^ 4-topshiriq Hozirgi kun raqamini (1-31 oralig'ida) konsolga chiqaruvchi dastur yozing.
+
+
 
 //^ 5-topshiriq Hozirgi sanani ISO formatda (YYYY-MM-DDTHH:mm:ss.sssZ) konsolga chiqaruvchi dastur yozing.
 
