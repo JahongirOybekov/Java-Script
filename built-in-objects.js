@@ -113,7 +113,9 @@
 
 // ^ 18-topshiriq 16 ning kvadrat ildizini toping va konsolga chiqaring.
 
-
+const son = 16;
+const ildiz = Math.sqrt(son);
+console.log(son + " ning kvadrat ildizi:", ildiz);
 
 //^ 19-topshiriq 27 ning kub ildizini toping va konsolga chiqaring.
 
