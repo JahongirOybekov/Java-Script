@@ -119,12 +119,16 @@
 
 //^ 19-topshiriq 27 ning kub ildizini toping va konsolga chiqaring.
 
-const son = 27;
-const kubIldiz = Math.cbrt(son);
-console.log(son + " ning kub ildizi:", kubIldiz);
+// const son = 27;
+// const kubIldiz = Math.cbrt(son);
+// console.log(son + " ning kub ildizi:", kubIldiz);
 
 //^ Number Object (20-24 topshiriqlar)
+// ======================================================
+
 //^ 20-topshiriq JavaScriptdagi maksimal xavfsiz butun sonni (MAX_SAFE_INTEGER) konsolga chiqaring.
+
+
 
 //^ 21-topshiriq 42 soni butun son ekanligini tekshiring va natijani (true/false) konsolga chiqaring.
 
