@@ -39,6 +39,8 @@
 
 //^ 7-topshiriq Hozirgi sanani o'zbek tilida ko'rsatuvchi dastur yozing. (Intl.DateTimeFormat dan foydalaning)
 
+
+
 //^ 8-topshiriq Hozirgi vaqtga 5 soat qo'shib, yangi vaqtni konsolga chiqaruvchi dastur yozing.
 
 //^ Math Object (9-19 topshiriqlar)
