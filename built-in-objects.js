@@ -39,7 +39,15 @@
 
 //^ 7-topshiriq Hozirgi sanani o'zbek tilida ko'rsatuvchi dastur yozing. (Intl.DateTimeFormat dan foydalaning)
 
-
+// const hozirgiVaqt = new Date();
+// const formatlovchi = new Intl.DateTimeFormat('uz-UZ', {
+//     year: 'numeric',
+//     month: 'long',
+//     day: 'numeric',
+//     weekday: 'long'
+// });
+// const ozbekchaSana = formatlovchi.format(hozirgiVaqt);
+// console.log("Bugungi sana:", ozbekchaSana);
 
 //^ 8-topshiriq Hozirgi vaqtga 5 soat qo'shib, yangi vaqtni konsolga chiqaruvchi dastur yozing.
 
