@@ -60,8 +60,8 @@
 
 //^ 9-topshiriq Math.PI yordamida Pi sonini konsolga chiqaring.
 
-const piSon = Math.PI;
-console.log("Matematikadagi Pi sonining aniq qiymati:", piSon);
+// const piSon = Math.PI;
+// console.log("Matematikadagi Pi sonining aniq qiymati:", piSon);
 
 //^ 10-topshiriq 0 va 1 oralig'ida tasodifiy son hosil qiling va konsolga chiqaring.
 
