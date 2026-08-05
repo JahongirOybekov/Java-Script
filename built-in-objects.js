@@ -144,6 +144,8 @@
 
 //^ 23-topshiriq Infinity qiymati cheksiz son ekanligini tekshiring va natijani konsolga chiqaring.
 
+
+
 //^ 24-topshiriq "3.14" matnini Number.parseFloat() yordamida haqiqiy songa o'giring va konsolga chiqaring.
 
 //^ JSON Object (25-27 topshiriqlar)
