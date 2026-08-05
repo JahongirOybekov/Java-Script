@@ -82,9 +82,15 @@
 
 //^ 13-topshiriq 4.1 sonini yuqoriga (ceil) yaxlitlang va natijani konsolga chiqaring.
 
-
+// const aslSon = 4.1;
+// const yuqorigaYaxlitlangan = Math.ceil(aslSon);
+// console.log(aslSon + " sonini yuqoriga (ceil) yaxlitlash natijasi:", yuqorigaYaxlitlangan);
 
 //^ 14-topshiriq [5, 10, 3, 8] massividagi eng katta sonni toping va konsolga chiqaring.
+
+const sonlar =[5, 10, 3, 8];
+const engKattaSon = Math.max(...sonlar);
+console.log("Massivdagi eng katta son:", engKattaSon);
 
 //^ 15-topshiriq [5, 10, 3, 8] massividagi eng kichik sonni toping va konsolga chiqaring.
 
