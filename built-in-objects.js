@@ -94,9 +94,9 @@
 
 //^ 15-topshiriq [5, 10, 3, 8] massividagi eng kichik sonni toping va konsolga chiqaring.
 
-const sonlar =[5, 10, 3, 8];
-const engKichikSon = Math.min(...sonlar);
-console.log("Massivdagi eng kichik son:", engKichikSon);
+// const sonlar =[5, 10, 3, 8];
+// const engKichikSon = Math.min(...sonlar);
+// console.log("Massivdagi eng kichik son:", engKichikSon);
 
 //^ 16-topshiriq -7 sonining absolut (modul) qiymatini toping va konsolga chiqaring.
 
