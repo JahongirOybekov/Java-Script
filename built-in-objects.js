@@ -51,7 +51,9 @@
 
 //^ 8-topshiriq Hozirgi vaqtga 5 soat qo'shib, yangi vaqtni konsolga chiqaruvchi dastur yozing.
 
-
+const vaqt = new Date();
+vaqt.setHours(vaqt.getHours() + 5);
+console.log(vaqt.toString());
 
 //^ Math Object (9-19 topshiriqlar)
 //^ 9-topshiriq Math.PI yordamida Pi sonini konsolga chiqaring.
