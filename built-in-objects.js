@@ -34,7 +34,8 @@
 
 //^ 6-topshiriq 1970-yil 1-yanvardan hozirgi vaqtgacha bo'lgan millisekundlar sonini konsolga chiqaruvchi dastur yozing.
 
-
+const millisekundlar = Date.now();
+console.log("1970-yil 1-yanvardan hozirgacha o'tgan millisekundlar:", millisekundlar);
 
 //^ 7-topshiriq Hozirgi sanani o'zbek tilida ko'rsatuvchi dastur yozing. (Intl.DateTimeFormat dan foydalaning)
 
