@@ -65,6 +65,8 @@
 
 //^ 10-topshiriq 0 va 1 oralig'ida tasodifiy son hosil qiling va konsolga chiqaring.
 
+
+
 //^ 11-topshiriq 4.7 sonini eng yaqin butun songa yaxlitlang va natijani konsolga chiqaring.
 
 //^ 12-topshiriq 4.9 sonini pastga (floor) yaxlitlang va natijani konsolga chiqaring.
