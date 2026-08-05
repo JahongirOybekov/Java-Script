@@ -128,16 +128,18 @@
 
 //^ 20-topshiriq JavaScriptdagi maksimal xavfsiz butun sonni (MAX_SAFE_INTEGER) konsolga chiqaring.
 
-const maksimalXavfsizSon = Number.MAX_SAFE_INTEGER;
-console.log("JavaScript-dagi maksimal xavfsiz butun son:", maksimalXavfsizSon);
+// const maksimalXavfsizSon = Number.MAX_SAFE_INTEGER;
+// console.log("JavaScript-dagi maksimal xavfsiz butun son:", maksimalXavfsizSon);
 
 //^ 21-topshiriq 42 soni butun son ekanligini tekshiring va natijani (true/false) konsolga chiqaring.
 
-const son = 42;
-const butunSonmi = Number.isInteger(son);
-console.log(son + " soni butun sonmi?:", butunSonmi);
+// const son = 42;
+// const butunSonmi = Number.isInteger(son);
+// console.log(son + " soni butun sonmi?:", butunSonmi);
 
 //^ 22-topshiriq "salom" matnini Number() yordamida songa o'girib, natija NaN ekanligini tekshiring va konsolga chiqaring.
+
+
 
 //^ 23-topshiriq Infinity qiymati cheksiz son ekanligini tekshiring va natijani konsolga chiqaring.
 
