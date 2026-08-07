@@ -474,48 +474,48 @@
 
 // }
 
-const shoxruzbek = {
-  ism: "Shoxruzbek",
-  familiya: "Karimov",
-  yosh: 8,
-  jins: "Erkak",
-  tugilganYil: 2018,
-  tugilganOy: "Mart",
-  tugilganKun: 15,
-  millati: "O'zbek",
-  fuqaroligi: "O'zbekiston",
-  shahri: "Toshkent",
-  tumani: "Yunusobod",
-  maktab: "12-maktab",
-  sinf: 2,
-  harfi: "A",
-  boyi: 130,
-  vazni: 28,
-  sochRangi: "Qora",
-  kozRangi: "Jigarrang",
-  sevimliFan: "Matematika",
-  sevimliRang: "Ko'k",
-  sevimliTaom: "Osh",
-  sevimliIchimlik: "Sharbat",
-  sevimliMeva: "Olma",
-  sevimliSport: "Futbol",
-  sevimliJamoa: "Real Madrid",
-  sevimliOyini: "Minecraft",
-  sevimliHayvon: "Sher",
-  sevimliKitob: "Zumrad va Qimmat",
-  sevimliMultfilm: "Tom va Jerry",
-  hobbi: "Rasm chizish",
-  orzusi: "Dasturchi bo'lish",
-  telefoniBor: false,
-  ukalariSoni: 1,
-  opalariSoni: 0,
-  dostlariSoni: 12,
-  yaxshiKoradiganFasl: "Yoz",
-  yaxshiKoradiganBayram: "Navro'z",
-  kompyuterBiladi: true,
-  inglizTiliniOrganmoqda: true,
-  baholari: [5, 5, 4, 5, 5]
-};
+// const shoxruzbek = {
+//   ism: "Shoxruzbek",
+//   familiya: "Karimov",
+//   yosh: 8,
+//   jins: "Erkak",
+//   tugilganYil: 2018,
+//   tugilganOy: "Mart",
+//   tugilganKun: 15,
+//   millati: "O'zbek",
+//   fuqaroligi: "O'zbekiston",
+//   shahri: "Toshkent",
+//   tumani: "Yunusobod",
+//   maktab: "12-maktab",
+//   sinf: 2,
+//   harfi: "A",
+//   boyi: 130,
+//   vazni: 28,
+//   sochRangi: "Qora",
+//   kozRangi: "Jigarrang",
+//   sevimliFan: "Matematika",
+//   sevimliRang: "Ko'k",
+//   sevimliTaom: "Osh",
+//   sevimliIchimlik: "Sharbat",
+//   sevimliMeva: "Olma",
+//   sevimliSport: "Futbol",
+//   sevimliJamoa: "Real Madrid",
+//   sevimliOyini: "Minecraft",
+//   sevimliHayvon: "Sher",
+//   sevimliKitob: "Zumrad va Qimmat",
+//   sevimliMultfilm: "Tom va Jerry",
+//   hobbi: "Rasm chizish",
+//   orzusi: "Dasturchi bo'lish",
+//   telefoniBor: false,
+//   ukalariSoni: 1,
+//   opalariSoni: 0,
+//   dostlariSoni: 12,
+//   yaxshiKoradiganFasl: "Yoz",
+//   yaxshiKoradiganBayram: "Navro'z",
+//   kompyuterBiladi: true,
+//   inglizTiliniOrganmoqda: true,
+//   baholari: [5, 5, 4, 5, 5]
+// };
 // console.log(shoxruzbek.boyi)
 // console.log(shoxruzbek.baholari)
 // console.log(shoxruzbek.fuqaroligi)
@@ -543,41 +543,41 @@ const shoxruzbek = {
 // }
 
 
-function userData() {
-  let ism = prompt("Ismingizni kiriting: ")
-  let familiya = prompt("Familiyangizni kiriting: ")
-  let yosh = Number(prompt("Yoshingizni kiriting: "))
+// function userData() {
+//   let ism = prompt("Ismingizni kiriting: ")
+//   let familiya = prompt("Familiyangizni kiriting: ")
+//   let yosh = Number(prompt("Yoshingizni kiriting: "))
 
-  let malumoti = `Sizning ismingiz ${ism}, familiyangiz ${familiya} va yoshingiz ${yosh}da!`
+//   let malumoti = `Sizning ismingiz ${ism}, familiyangiz ${familiya} va yoshingiz ${yosh}da!`
   
-  console.log(malumoti)
-}
+//   console.log(malumoti)
+// }
 
 // userData()
 
 // _______________________________________________________
 
-function daraja(a) {
-  return a ** 2
-}
+// function daraja(a) {
+//   return a ** 2
+// }
 
 // console.log(daraja(2))
 
 // _______________________________________________________
-function darajaa(b) {
-  console.log("salom")
-  return b
+// function darajaa(b) {
+//   console.log("salom")
+//   return b
   
-}
+// }
 
 // darajaa(2)
 // console.log(darajaa(2))
 
 // _______________________________________________________
 
-function qoshish(a, b) {
-  return a + b;
-}
-console.log(qoshish(5, 8))
-console.log(qoshish(5,8,4))
-console.log(qoshish(5)) //! NaN - Not a Number
+// function qoshish(a, b) {
+//   return a + b;
+// }
+// console.log(qoshish(5, 8))
+// console.log(qoshish(5,8,4))
+// console.log(qoshish(5)) //! NaN - Not a Number
