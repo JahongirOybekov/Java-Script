@@ -188,9 +188,9 @@
 
 //^ 28-topshiriq "12345" matnida faqat raqamlar borligini tekshiruvchi regexp yozing va natijani konsolga chiqaring.
 
-let matn = "12345";
-let natija = /^\d+$/.test(matn);
-console.log(natija); 
+// let matn = "12345";
+// let natija = /^\d+$/.test(matn);
+// console.log(natija); 
 
 //^ 29-topshiriq "test@mail.com" email manzilini tekshiruvchi regexp yozing va natijani konsolga chiqaring.
 
