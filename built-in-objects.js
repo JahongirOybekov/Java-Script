@@ -150,6 +150,8 @@
 
 //^ 24-topshiriq "3.14" matnini Number.parseFloat() yordamida haqiqiy songa o'giring va konsolga chiqaring.
 
+
+
 //^ JSON Object (25-27 topshiriqlar)
 //^ 25-topshiriq {name: "Ali", age: 25} ob'ektini JSON string formatiga o'giring va konsolga chiqaring.
 
