@@ -201,6 +201,6 @@
 
 //^ 30-topshiriq "Men 25 yoshdaman, 3 ta kitob o'qidim" matnidagi barcha raqamlarni topib, massiv ko'rinishida konsolga chiqaring.
 
-let matn = "Men 25 yoshdaman, 3 ta kitob o'qidim";
-let raqamlar = matn.match(/\d+/g);
-console.log(raqamlar);
+// let matn = "Men 25 yoshdaman, 3 ta kitob o'qidim";
+// let raqamlar = matn.match(/\d+/g);
+// console.log(raqamlar);
