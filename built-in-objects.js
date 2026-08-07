@@ -158,9 +158,16 @@
 //^ JSON Object (25-27 topshiriqlar)
 // =================================================
 
-//^ 25-topshiriq {name: "Ali", age: 25} ob'ektini JSON string formatiga o'giring va konsolga chiqaring.
+// ^ 25-topshiriq {name: "Ali", age: 25} ob'ektini JSON string formatiga o'giring va konsolga chiqaring.
 
+let foydalanuvchi = {name: "Ali", age: 25};
 
+// Ob'ektni JSON string formatiga o'giramiz
+let jsonFormat = JSON.stringify(foydalanuvchi);
+
+// Natijani va uning turini konsolga chiqaramiz
+console.log(jsonFormat);
+console.log(typeof jsonFormat);
 
 //^ 26-topshiriq '{"name":"Ali","age":25}' JSON stringini JavaScript ob'ektiga o'giring va konsolga chiqaring.
 
