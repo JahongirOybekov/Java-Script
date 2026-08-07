@@ -188,7 +188,15 @@
 
 //^ 28-topshiriq "12345" matnida faqat raqamlar borligini tekshiruvchi regexp yozing va natijani konsolga chiqaring.
 
+let matn = "12345";
 
+// Faqat raqamlar borligini tekshiruvchi RegExp
+// ^ - matn boshlanishi, \d+ - bir yoki undan ko'p raqam, $ - matn tugashi
+let qoida = /^\d+$/;
+
+// Matnni qoidaga mosligini tekshiramiz
+let natija = qoida.test(matn);
+console.log(natija); 
 
 //^ 29-topshiriq "test@mail.com" email manzilini tekshiruvchi regexp yozing va natijani konsolga chiqaring.
 
