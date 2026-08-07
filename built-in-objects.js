@@ -150,7 +150,14 @@
 
 //^ 24-topshiriq "3.14" matnini Number.parseFloat() yordamida haqiqiy songa o'giring va konsolga chiqaring.
 
+let matn = "3.14";
 
+// Matnni haqiqiy (o'nlik) songa o'giramiz
+let son = Number.parseFloat(matn);
+
+// Natijani va uning turini konsolga chiqaramiz
+console.log(son); 
+console.log(typeof son);
 
 //^ JSON Object (25-27 topshiriqlar)
 //^ 25-topshiriq {name: "Ali", age: 25} ob'ektini JSON string formatiga o'giring va konsolga chiqaring.
