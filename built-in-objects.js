@@ -167,7 +167,12 @@
 
 //^ 26-topshiriq '{"name":"Ali","age":25}' JSON stringini JavaScript ob'ektiga o'giring va konsolga chiqaring.
 
+let jsonMatn = '{"name":"Ali","age":25}';
 
+// JSON matnini JavaScript ob'ektiga o'giramiz
+let obekt = JSON.parse(jsonMatn);
+console.log(obekt);
+console.log(typeof obekt);
 
 //^ 27-topshiriq {name: "Ali", age: 25, password: "123"} ob'ektini JSON ga o'giring, faqat name va age maydonlari qolsin. (replacer funksiyasidan foydalaning)
 
