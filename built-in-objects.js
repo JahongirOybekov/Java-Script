@@ -195,7 +195,9 @@
 
 //^ 29-topshiriq "test@mail.com" email manzilini tekshiruvchi regexp yozing va natijani konsolga chiqaring.
 
-
+let email = "test@mail.com";
+let natija = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+console.log(natija);
 
 //^ 30-topshiriq "Men 25 yoshdaman, 3 ta kitob o'qidim" matnidagi barcha raqamlarni topib, massiv ko'rinishida konsolga chiqaring.
 
