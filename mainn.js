@@ -31,3 +31,14 @@ box4.style.width = "200px"
 box4.style.height = "150px"
 box4.style.backgroundColor = "green"
 
+const box5 = document.getElementById("box5");
+
+box5.style.width = "200px"
+box5.style.height = "150px"
+box5.style.backgroundColor = "yellowgreen"
+
+const box6 = document.getElementById("box6");
+
+box6.style.width = "200px"
+box6.style.height = "150px"
+box6.style.backgroundColor = "pink"
