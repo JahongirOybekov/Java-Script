@@ -184,6 +184,7 @@
 // console.log(jsonFormat);
 
 //^ RegExp (28-30 topshiriqlar)
+
 // ========================================
 
 //^ 28-topshiriq "12345" matnida faqat raqamlar borligini tekshiruvchi regexp yozing va natijani konsolga chiqaring.
