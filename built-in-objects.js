@@ -156,7 +156,11 @@
 // console.log(typeof son);
 
 //^ JSON Object (25-27 topshiriqlar)
+// =================================================
+
 //^ 25-topshiriq {name: "Ali", age: 25} ob'ektini JSON string formatiga o'giring va konsolga chiqaring.
+
+
 
 //^ 26-topshiriq '{"name":"Ali","age":25}' JSON stringini JavaScript ob'ektiga o'giring va konsolga chiqaring.
 
