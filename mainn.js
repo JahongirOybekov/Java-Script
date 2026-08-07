@@ -6,6 +6,9 @@ box.style.width = "1500px";
 box.style.height = "600px";
 box.style.margin = "auto"
 box.style.marginTop = "50px"
+box.style.display = "flex"
+box.style.justifyContent = "space-around"
+box.style.alignItems = "center"
 
 const box1 = document.getElementById("box1");
 
