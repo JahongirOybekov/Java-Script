@@ -174,12 +174,10 @@
 
 //^ 27-topshiriq {name: "Ali", age: 25, password: "123"} ob'ektini JSON ga o'giring, faqat name va age maydonlari qolsin. (replacer funksiyasidan foydalaning)
 
-let foydalanuvchi = {name: "Ali", age: 25, password: "123"};
-
-// Replacer funksiyasi yordamida password maydonini o'chirib tashlaymiz
+let foydalanuvchi = { name: "Ali", age: 25, password: "123" };
 let jsonFormat = JSON.stringify(foydalanuvchi, (key, value) => {
     if (key === "password") {
-        return undefined; 
+        return undefined;
     }
     return value;
 });
