@@ -161,11 +161,7 @@
 // ^ 25-topshiriq {name: "Ali", age: 25} ob'ektini JSON string formatiga o'giring va konsolga chiqaring.
 
 let foydalanuvchi = {name: "Ali", age: 25};
-
-// Ob'ektni JSON string formatiga o'giramiz
 let jsonFormat = JSON.stringify(foydalanuvchi);
-
-// Natijani va uning turini konsolga chiqaramiz
 console.log(jsonFormat);
 console.log(typeof jsonFormat);
 
