@@ -144,9 +144,9 @@
 
 //^ 23-topshiriq Infinity qiymati cheksiz son ekanligini tekshiring va natijani konsolga chiqaring.
 
-let qiymat = Infinity;
-let natija = (qiymat === Infinity);
-console.log("Qiymat cheksizmi?", natija);
+// let qiymat = Infinity;
+// let natija = (qiymat === Infinity);
+// console.log("Qiymat cheksizmi?", natija);
 
 //^ 24-topshiriq "3.14" matnini Number.parseFloat() yordamida haqiqiy songa o'giring va konsolga chiqaring.
 
