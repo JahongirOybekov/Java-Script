@@ -53,9 +53,20 @@
 
 
 
-document.body.innerHTML = `
-    <div>
-        <h1 style="color: blue;">Bu sarlavha</h1>
-        <p style="color: red;">Bu matn</p>
-    </div>
+// 1. Div yaratamiz va sahifaga qo'shamiz
+const div = document.createElement("div")
+document.body.append(div)
+div.id = "div"
+
+const div1 = document.getElementById("div")
+div1.style.width = "300px"
+div1.style.height = "300px"
+div1.style.backgroundColor = "red"
+div1.style.margin = "auto"
+div1.style.marginTop = "200px"
+div1.style.borderRadius = "20px"
+
+div1.innerHTML = `
+    <h1 style="color: white;">Shoxruzbek</h1>
+    <p style="color: yellow;">Lorem ipsum dolor set amet</p>
 `;
