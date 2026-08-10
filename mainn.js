@@ -45,3 +45,38 @@ const box6 = document.getElementById("box6");
 box6.style.width = "200px"
 box6.style.height = "150px"
 box6.style.backgroundColor = "pink"
+
+
+
+// ======================================================
+// ======================================================
+
+
+
+// 1. Yangi div, h1 va p elementlarini yaratamiz
+const yangiDiv = document.createElement('div');
+const sarlavha = document.createElement('h1');
+const matn = document.createElement('p');
+
+// 2. Teglarning ichiga matn yozamiz
+sarlavha.textContent = "Bu JavaScript orqali yaratilgan sarlavha";
+matn.textContent = "Bu esa h1 tegining ostidagi paragraf matni hisoblanadi.";
+
+// 3. CSS yordamida rang va dizayn beramiz
+// Div uchun orqa fon va ichki masofa (padding) beramiz
+yangiDiv.style.backgroundColor = "#f0f2f5";
+yangiDiv.style.padding = "20px";
+yangiDiv.style.borderRadius = "8px";
+
+// h1 tegiga ko'k rang beramiz
+sarlavha.style.color = "#007aff";
+
+// p tegiga to'q kulrang beramiz
+matn.style.color = "#333333";
+
+// 4. h1 va p teglarini div ichiga joylashtiramiz (joylaymiz)
+yangiDiv.appendChild(sarlavha);
+yangiDiv.appendChild(matn);
+
+// 5. Tayyor bo'lgan div-ni HTML sahifamizning body qismiga ulaymiz
+document.body.appendChild(yangiDiv);
