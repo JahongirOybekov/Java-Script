@@ -78,3 +78,53 @@
 // ================================================
 
 
+const asosiyDiv = document.createElement("div");
+document.body.append(asosiyDiv);
+asosiyDiv.id = "main-container";
+
+// Asosiy div uchun umumiy shrift va fon dizaynini beramiz
+const container = document.getElementById("main-container");
+container.style.fontFamily = "Arial, sans-serif";
+container.style.backgroundColor = "#e0ebeb"; // Orqa fondagi och kulrang-havorang tus
+container.style.padding = "20px";
+container.style.minHeight = "100vh";
+
+// 2. Ichiga HTML strukturasini rasmdagidek qilib joylashtiramiz
+container.innerHTML = `
+    <!-- Yuqoridagi rang-barang banner qismi -->
+    <div style="
+        width: 100%; 
+        height: 180px; 
+        background: linear-gradient(135deg, #0099cc, #33cc99, #ffcc00, #ff5050); 
+        border-radius: 4px;
+        margin-bottom: 30px;
+    "></div>
+
+    <!-- Pastdagi 4 ta matnli kartalar uchun qator (Flexbox) -->
+    <div style="
+        display: flex; 
+        justify-content: space-between; 
+        gap: 15px; 
+        flex-wrap: wrap;
+    ">
+        <!-- 1-karta -->
+        <div style="flex: 1; min-width: 200px; background: white; padding: 15px; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+            <p style="color: #555; font-size: 14px; line-height: 1.5; margin: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, mollitia facilis omnis dolor. Corrupti, nulla facilis omnis dolor consequuntur magni.</p>
+        </div>
+
+        <!-- 2-karta -->
+        <div style="flex: 1; min-width: 200px; background: white; padding: 15px; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+            <p style="color: #555; font-size: 14px; line-height: 1.5; margin: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, mollitia facilis omnis dolor. Corrupti, nulla facilis omnis dolor consequuntur magni.</p>
+        </div>
+
+        <!-- 3-karta -->
+        <div style="flex: 1; min-width: 200px; background: white; padding: 15px; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+            <p style="color: #555; font-size: 14px; line-height: 1.5; margin: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, mollitia facilis omnis dolor. Corrupti, nulla facilis omnis dolor consequuntur magni.</p>
+        </div>
+
+        <!-- 4-karta -->
+        <div style="flex: 1; min-width: 200px; background: white; padding: 15px; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+            <p style="color: #555; font-size: 14px; line-height: 1.5; margin: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, mollitia facilis omnis dolor. Corrupti, nulla facilis omnis dolor consequuntur magni.</p>
+        </div>
+    </div>
+`;
