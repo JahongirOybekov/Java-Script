@@ -52,25 +52,29 @@
 // ======================================================
 
 
+// const div = document.createElement("div")
+// document.body.append(div)
+// div.id = "div"
 
-// 1. Div yaratamiz va sahifaga qo'shamiz
-const div = document.createElement("div")
-document.body.append(div)
-div.id = "div"
-
-const div1 = document.getElementById("div")
-div1.style.width = "400px"
-div1.style.height = "300px"
-div1.style.backgroundColor = "red"
-div1.style.margin = "200px auto"
-div1.style.borderRadius = "20px"
-div1.style.display = "flex"
-div1.style.flexDirection = "column"
-div1.style.alignItems = "center"
-div1.style.justifyContent = "center"
+// const div1 = document.getElementById("div")
+// div1.style.width = "400px"
+// div1.style.height = "300px"
+// div1.style.backgroundColor = "red"
+// div1.style.margin = "200px auto"
+// div1.style.borderRadius = "20px"
+// div1.style.display = "flex"
+// div1.style.flexDirection = "column"
+// div1.style.alignItems = "center"
+// div1.style.justifyContent = "center"
 
 
-div1.innerHTML = `
-    <h1 style="color: white; font-size: 50px;">Shoxruzbek</h1>
-    <p style="color: yellow; font-size: 30px;">Lagerga bormadi</p>
-`;
+// div1.innerHTML = `
+//     <h1 style="color: white; font-size: 50px;">Shoxruzbek</h1>
+//     <p style="color: yellow; font-size: 30px;">Lagerga bormadi</p>
+// `;
+
+
+// ================================================
+// ================================================
+
+
