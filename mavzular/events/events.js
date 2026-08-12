@@ -42,7 +42,7 @@ btn.style.border = "none";
 btn.style.cursor = "pointer";
 btn.style.fontSize = "20px"
 
-// Butun sahifani ekranning o'rtasiga taqash
+
 document.body.style.display = "flex";
 document.body.style.justifyContent = "center";
 document.body.style.alignItems = "center";
