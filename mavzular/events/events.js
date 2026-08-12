@@ -55,11 +55,5 @@ buyruqlar.addEventListener("click", function () {
     buyruqlar.style.backgroundColor = "#28e928";
     buyruqlar.style.width = "240px";
     buyruqlar.style.height = "70px"
-});
-
-btn.addEventListener("click", () => {
-    console.log("Ishladi");
-    btn.innerHTML = "✅ To'lov qilindi";
-    btn.style.backgroundColor = "green";
     sound.play();
 });
