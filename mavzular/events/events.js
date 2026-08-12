@@ -24,17 +24,18 @@ const buyruqlar = document.getElementById("tolov");
 
 div.style.width = "400px";
 div.style.height = "450px";
-div.style.backgroundColor = "bisque";
-div.style.borderRadius = "10px";
+div.style.backgroundColor = "#f1faf1";
+div.style.borderRadius = "20px";
 div.style.display = "flex";
 div.style.justifyContent = "center";
 div.style.alignItems = "center";
+div.style.border = "1px solid black"
 
 
 buyruqlar.style.width = "250px";
 buyruqlar.style.height = "70px"; 
 buyruqlar.style.borderRadius = "10px";
-buyruqlar.style.backgroundColor = "red";
+buyruqlar.style.backgroundColor = "#f02724";
 buyruqlar.style.color = "white"; 
 buyruqlar.style.border = "none";
 buyruqlar.style.cursor = "pointer";
@@ -50,7 +51,7 @@ document.body.style.margin = "0";
 
 buyruqlar.addEventListener("click", function() {
     buyruqlar.innerHTML = "✓ To'lov amalga oshirildi"; 
-    buyruqlar.style.backgroundColor = "green";      
+    buyruqlar.style.backgroundColor = "#28e928";      
     buyruqlar.style.width = "240px";                
     buyruqlar.style.height = "70px"
 });
