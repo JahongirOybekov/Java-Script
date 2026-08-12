@@ -80,51 +80,34 @@
 
 const asosiyDiv = document.createElement("div");
 document.body.append(asosiyDiv);
-asosiyDiv.id = "main-container";
+asosiyDiv.id = "main";
 
-// Asosiy div uchun umumiy shrift va fon dizaynini beramiz
-const container = document.getElementById("main-container");
-container.style.fontFamily = "Arial, sans-serif";
-container.style.backgroundColor = "#e0ebeb"; // Orqa fondagi och kulrang-havorang tus
-container.style.padding = "20px";
-container.style.minHeight = "100vh";
+const main = document.getElementById("main");
+main.style.display = "flex";
+main.style.justifyContent = "center"; 
+main.style.alignItems = "center";     
+main.style.minHeight = "1000px";       
+main.style.gap = "100px";              
+main.style.backgroundColor = "#d8dadc";
 
-// 2. Ichiga HTML strukturasini rasmdagidek qilib joylashtiramiz
-container.innerHTML = `
-    <!-- Yuqoridagi rang-barang banner qismi -->
-    <div style="
-        width: 100%; 
-        height: 180px; 
-        background: linear-gradient(135deg, #0099cc, #33cc99, #ffcc00, #ff5050); 
-        border-radius: 4px;
-        margin-bottom: 30px;
-    "></div>
+main.innerHTML = `
+    <!-- 1-Div -->
+    <div style="width: 300px; height: 350px; background: white; padding: 15px; border: 1px solid #ccc; overflow-y: scroll; border-top-left-radius: 20px; border-bottom-left-radius: 20px;">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
 
-    <!-- Pastdagi 4 ta matnli kartalar uchun qator (Flexbox) -->
-    <div style="
-        display: flex; 
-        justify-content: space-between; 
-        gap: 15px; 
-        flex-wrap: wrap;
-    ">
-        <!-- 1-karta -->
-        <div style="flex: 1; min-width: 200px; background: white; padding: 15px; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-            <p style="color: #555; font-size: 14px; line-height: 1.5; margin: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, mollitia facilis omnis dolor. Corrupti, nulla facilis omnis dolor consequuntur magni.</p>
-        </div>
+    <!-- 2-Div -->
+    <div style="width: 300px; height: 350px; background: white; padding: 15px; border: 1px solid #ccc; overflow-y: scroll; border-top-left-radius: 20px; border-bottom-left-radius: 20px;">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
 
-        <!-- 2-karta -->
-        <div style="flex: 1; min-width: 200px; background: white; padding: 15px; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-            <p style="color: #555; font-size: 14px; line-height: 1.5; margin: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, mollitia facilis omnis dolor. Corrupti, nulla facilis omnis dolor consequuntur magni.</p>
-        </div>
+    <!-- 3-Div -->
+    <div style="width: 300px; height: 350px; background: white; padding: 15px; border: 1px solid #ccc; overflow-y: scroll; border-top-left-radius: 20px; border-bottom-left-radius: 20px;">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
 
-        <!-- 3-karta -->
-        <div style="flex: 1; min-width: 200px; background: white; padding: 15px; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-            <p style="color: #555; font-size: 14px; line-height: 1.5; margin: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, mollitia facilis omnis dolor. Corrupti, nulla facilis omnis dolor consequuntur magni.</p>
-        </div>
-
-        <!-- 4-karta -->
-        <div style="flex: 1; min-width: 200px; background: white; padding: 15px; border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-            <p style="color: #555; font-size: 14px; line-height: 1.5; margin: 0;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, mollitia facilis omnis dolor. Corrupti, nulla facilis omnis dolor consequuntur magni.</p>
-        </div>
+    <!-- 4-Div -->
+    <div style="width: 300px; height: 350px; background: white; padding: 15px; border: 1px solid #ccc; overflow-y: scroll; border-top-left-radius: 20px; border-bottom-left-radius: 20px;">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
 `;
