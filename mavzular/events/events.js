@@ -26,7 +26,6 @@ div.style.width = "400px";
 div.style.height = "450px";
 div.style.backgroundColor = "bisque";
 div.style.borderRadius = "10px";
-
 div.style.display = "flex";
 div.style.justifyContent = "center";
 div.style.alignItems = "center";
@@ -50,8 +49,8 @@ document.body.style.margin = "0";
 
 
 buyruqlar.addEventListener("click", function() {
-    buyruqlar.innerHTML = "&#9989; To'lov qilindi"; 
+    buyruqlar.innerHTML = "✓ To'lov amalga oshirildi"; 
     buyruqlar.style.backgroundColor = "green";      
-    buyruqlar.style.width = "200px";                
+    buyruqlar.style.width = "240px";                
     buyruqlar.style.height = "70px"
 });
