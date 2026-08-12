@@ -7,7 +7,7 @@ div1.addEventListener("click", () => {
   div1.style.width = "600px"
   div1.style.height = "300px"
   div1.style.transition = "1s"
-  div1.innerHTML = <button style="width: 100px; height: 60px; border: none; background-color: green; color: snow;">Send</button>
+  div1.innerHTML = `<button style="width: 100px; height: 60px; border: none; background-color: green; color: snow;">Send</button>`
   
 });
 
