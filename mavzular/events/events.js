@@ -19,12 +19,12 @@
 
 // 1. Elementlarni HTML dan olamiz
 const div = document.getElementById("katta-div");
-const btn = document.getElementById("tolov-btn");
+const btn = document.getElementById("tolov");
 
 // 2. Katta div sozlamalari (Kengligi: 300px, Bo'yi: 350px, Rangi: Sariq)
-div.style.width = "300px";
-div.style.height = "350px";
-div.style.backgroundColor = "yellow";
+div.style.width = "400px";
+div.style.height = "450px";
+div.style.backgroundColor = "bisque";
 div.style.borderRadius = "10px";
 
 // Tugmani divning qoq o'rtasiga tekislash
@@ -33,13 +33,14 @@ div.style.justifyContent = "center";
 div.style.alignItems = "center";
 
 // 3. Tugma (Button) sozlamalari (Kengligi: 100px, Rangi: Qizil)
-btn.style.width = "100px";
-btn.style.height = "50px"; // Tugma chiroyli ko'rinishi uchun bo'yi 50px qilindi
+btn.style.width = "250px";
+btn.style.height = "70px"; // Tugma chiroyli ko'rinishi uchun bo'yi 50px qilindi
 btn.style.borderRadius = "10px";
 btn.style.backgroundColor = "red";
 btn.style.color = "white"; // Yozuv oq rangda ko'rinishi uchun
 btn.style.border = "none";
 btn.style.cursor = "pointer";
+btn.style.fontSize = "20px"
 
 // Butun sahifani ekranning o'rtasiga taqash
 document.body.style.display = "flex";
@@ -50,7 +51,8 @@ document.body.style.margin = "0";
 
 // 4. Tugma bosilganda yashil (green) bo'lishi va matn almashishi
 btn.addEventListener("click", function() {
-    btn.innerHTML = "&#9989; To'lov qilindi"; // Galochka va matn
-    btn.style.backgroundColor = "green";      // Rangi yashilga almashadi
-    btn.style.width = "150px";                // Yangi matn sig'ishi uchun eni biroz kattalashadi
+    btn.innerHTML = "&#9989; To'lov qilindi"; 
+    btn.style.backgroundColor = "green";      
+    btn.style.width = "200px";                
+    btn.style.height = "70px"
 });
