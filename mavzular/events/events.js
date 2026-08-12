@@ -20,6 +20,7 @@
 
 const div = document.getElementById("katta-div");
 const buyruqlar = document.getElementById("tolov");
+const sound = document.getElementById("audio")
 
 
 div.style.width = "400px";
