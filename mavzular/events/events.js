@@ -49,7 +49,7 @@ document.body.style.alignItems = "center";
 document.body.style.minHeight = "100vh";
 document.body.style.margin = "0";
 
-// 4. Tugma bosilganda yashil (green) bo'lishi va matn almashishi
+
 btn.addEventListener("click", function() {
     btn.innerHTML = "&#9989; To'lov qilindi"; 
     btn.style.backgroundColor = "green";      
