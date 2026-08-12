@@ -17,7 +17,7 @@
 
 // ====================================================
 
-// 1. Elementlarni HTML dan olamiz
+
 const div = document.getElementById("katta-div");
 const btn = document.getElementById("tolov");
 
