@@ -19,7 +19,7 @@
 
 
 const div = document.getElementById("katta-div");
-const btn = document.getElementById("tolov");
+const buyruqlar = document.getElementById("tolov");
 
 
 div.style.width = "400px";
@@ -32,14 +32,14 @@ div.style.justifyContent = "center";
 div.style.alignItems = "center";
 
 
-btn.style.width = "250px";
-btn.style.height = "70px"; 
-btn.style.borderRadius = "10px";
-btn.style.backgroundColor = "red";
-btn.style.color = "white"; 
-btn.style.border = "none";
-btn.style.cursor = "pointer";
-btn.style.fontSize = "20px"
+buyruqlar.style.width = "250px";
+buyruqlar.style.height = "70px"; 
+buyruqlar.style.borderRadius = "10px";
+buyruqlar.style.backgroundColor = "red";
+buyruqlar.style.color = "white"; 
+buyruqlar.style.border = "none";
+buyruqlar.style.cursor = "pointer";
+buyruqlar.style.fontSize = "20px"
 
 
 document.body.style.display = "flex";
@@ -49,9 +49,9 @@ document.body.style.minHeight = "100vh";
 document.body.style.margin = "0";
 
 
-btn.addEventListener("click", function() {
-    btn.innerHTML = "&#9989; To'lov qilindi"; 
-    btn.style.backgroundColor = "green";      
-    btn.style.width = "200px";                
-    btn.style.height = "70px"
+buyruqlar.addEventListener("click", function() {
+    buyruqlar.innerHTML = "&#9989; To'lov qilindi"; 
+    buyruqlar.style.backgroundColor = "green";      
+    buyruqlar.style.width = "200px";                
+    buyruqlar.style.height = "70px"
 });
