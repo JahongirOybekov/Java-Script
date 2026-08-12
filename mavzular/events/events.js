@@ -25,12 +25,11 @@ const sound = document.getElementById("audio")
 
 div.style.width = "400px";
 div.style.height = "450px";
-div.style.backgroundColor = "#f1faf1";
+div.style.backgroundColor = "#6ccde2";
 div.style.borderRadius = "20px";
 div.style.display = "flex";
 div.style.justifyContent = "center";
 div.style.alignItems = "center";
-div.style.border = "1px solid black"
 
 
 buyruqlar.style.width = "250px";
