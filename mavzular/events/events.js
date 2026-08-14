@@ -98,3 +98,30 @@
 // ===================================================================================
 // ===================================================================================
 
+const div = document.getElementById("jobs");
+const kuchuk = document.getElementById("it-ovozi");
+const sound = document.getElementById("audio")
+
+div.style.width = "400px";
+div.style.height = "450px";
+div.style.backgroundColor = "#6ccde2"; 
+div.style.borderRadius = "20px";
+div.style.display = "flex";
+div.style.justifyContent = "center";
+div.style.alignItems = "center";
+
+kuchuk.style.width = "250px";
+kuchuk.style.height = "70px";
+kuchuk.style.borderRadius = "10px";
+kuchuk.style.backgroundColor = "#3025c9"; 
+kuchuk.style.color = "white";
+kuchuk.style.border = "none";
+kuchuk.style.cursor = "pointer";
+kuchuk.style.fontSize = "18px";
+kuchuk.style.fontSize = "25px" 
+
+document.body.style.display = "flex";
+document.body.style.justifyContent = "center";
+document.body.style.alignItems = "center";
+document.body.style.minHeight = "100vh";
+document.body.style.margin = "0";
