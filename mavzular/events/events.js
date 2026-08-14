@@ -98,3 +98,30 @@
 // ===================================================================================
 // ===================================================================================
 
+const div = document.getElementById("kuchuk");
+const ovoz = document.getElementById("it-ovozi");
+const sound = document.getElementById("audio")
+
+div.style.width = "400px";
+div.style.height = "450px";
+div.style.backgroundColor = "#6ccde2"; 
+div.style.borderRadius = "20px";
+div.style.display = "flex";
+div.style.justifyContent = "center";
+div.style.alignItems = "center";
+
+ovoz.style.width = "250px";
+ovoz.style.height = "70px";
+ovoz.style.borderRadius = "10px";
+ovoz.style.backgroundColor = "#3025c9"; 
+ovoz.style.color = "white";
+ovoz.style.border = "none";
+ovoz.style.cursor = "pointer";
+ovoz.style.fontSize = "18px";
+ovoz.style.fontSize = "25px" 
+
+document.body.style.display = "flex";
+document.body.style.justifyContent = "center";
+document.body.style.alignItems = "center";
+document.body.style.minHeight = "100vh";
+document.body.style.margin = "0";
