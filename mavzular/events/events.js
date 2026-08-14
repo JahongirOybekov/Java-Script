@@ -62,15 +62,13 @@ const div = document.getElementById("katta-div");
 const sanaButton = document.getElementById("sana-btn");
 const sound = document.getElementById("audio")
 
-// 1. Katta och ko'k qutining o'lchamlari va dizayni (Rasmga moslab)
 div.style.width = "400px";
 div.style.height = "450px";
-div.style.backgroundColor = "#6ccde2"; // Rasmdagi och havorang
+div.style.backgroundColor = "#6ccde2"; 
 div.style.borderRadius = "20px";
 div.style.display = "flex";
 div.style.justifyContent = "center";
 div.style.alignItems = "center";
-
 
 sanaButton.style.width = "250px";
 sanaButton.style.height = "70px";
@@ -82,7 +80,6 @@ sanaButton.style.cursor = "pointer";
 sanaButton.style.fontSize = "18px";
 sanaButton.style.fontSize = "25px" 
 
-// 3. Butun sahifani ekranning o'rtasiga tekislash
 document.body.style.display = "flex";
 document.body.style.justifyContent = "center";
 document.body.style.alignItems = "center";
