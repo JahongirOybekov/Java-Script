@@ -104,7 +104,7 @@ const sound = document.getElementById("audio")
 
 div.style.width = "400px";
 div.style.height = "450px";
-div.style.backgroundColor = "#6ccde2"; 
+div.style.backgroundColor = "#41db44"; 
 div.style.borderRadius = "20px";
 div.style.display = "flex";
 div.style.justifyContent = "center";
@@ -125,3 +125,11 @@ document.body.style.justifyContent = "center";
 document.body.style.alignItems = "center";
 document.body.style.minHeight = "100vh";
 document.body.style.margin = "0";
+
+ovoz.addEventListener("click", function () {
+    ovoz.innerHTML = "Kuchuk ovozi qo'yildi";
+    ovoz.style.backgroundColor = "#e92828";
+    ovoz.style.width = "240px";
+    ovoz.style.height = "70px"
+    sound.play();
+});
