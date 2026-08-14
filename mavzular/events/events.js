@@ -23,14 +23,13 @@
 // const sound = document.getElementById("audio")
 
 
-// div.style.width = "400px";
+// iv.style.width = "400px";
 // div.style.height = "450px";
 // div.style.backgroundColor = "#6ccde2";
 // div.style.borderRadius = "20px";
 // div.style.display = "flex";
 // div.style.justifyContent = "center";
 // div.style.alignItems = "center";
-
 
 // buyruqlar.style.width = "250px";
 // buyruqlar.style.height = "70px";
@@ -41,13 +40,11 @@
 // buyruqlar.style.cursor = "pointer";
 // buyruqlar.style.fontSize = "20px"
 
-
 // document.body.style.display = "flex";
 // document.body.style.justifyContent = "center";
 // document.body.style.alignItems = "center";
 // document.body.style.minHeight = "100vh";
 // document.body.style.margin = "0";
-
 
 // buyruqlar.addEventListener("click", function () {
 //     buyruqlar.innerHTML = "✓ To'lov amalga oshirildi";
@@ -59,7 +56,6 @@
 
 // =================================================================================
 // ==========================================================================================
-
 
 // const div = document.getElementById("katta-div");
 // const sana = document.getElementById("sana-btn");
@@ -101,3 +97,4 @@
 
 // ===================================================================================
 // ===================================================================================
+
