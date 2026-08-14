@@ -60,6 +60,7 @@
 
 const div = document.getElementById("katta-div");
 const sanaButton = document.getElementById("sana-btn");
+const sound = document.getElementById("audio")
 
 // 1. Katta och ko'k qutining o'lchamlari va dizayni (Rasmga moslab)
 div.style.width = "400px";
@@ -97,7 +98,8 @@ sanaButton.addEventListener("click", function () {
 
     // Tugma ichidagi yozuvni bugungi sanaga almashtiramiz
     sanaButton.textContent = kun + "." + oy + "." + yil;
-
+    
     // Tugma rangini yashilga o'zgartiramiz
-    sanaButton.style.backgroundColor = "#28e928";
+    sanaButton.style.backgroundColor = "#d80f0c";
+    sound.play();
 });
