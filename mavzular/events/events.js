@@ -86,18 +86,12 @@ document.body.style.alignItems = "center";
 document.body.style.minHeight = "100vh";
 document.body.style.margin = "0";
 
-// 4. Tugma bosilganda bugungi sanaga va yashil rangga o'tish qismi
 sanaButton.addEventListener("click", function () {
-    // Bugungi haqiqiy jonli sanani olamiz
     const bugun = new Date();
     const kun = String(bugun.getDate()).padStart(2, '0');
     const oy = String(bugun.getMonth() + 1).padStart(2, '0');
     const yil = bugun.getFullYear();
-
-    // Tugma ichidagi yozuvni bugungi sanaga almashtiramiz
     sanaButton.textContent = kun + "." + oy + "." + yil;
-
-    // Tugma rangini yashilga o'zgartiramiz
     sanaButton.style.backgroundColor = "#d80f0c";
     sound.play();
 });
