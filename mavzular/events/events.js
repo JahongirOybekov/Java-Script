@@ -71,15 +71,16 @@ div.style.display = "flex";
 div.style.justifyContent = "center";
 div.style.alignItems = "center";
 
-// 2. Ichidagi to'q ko'k rangli tugma dizayni
+
 sanaButton.style.width = "250px";
 sanaButton.style.height = "70px";
 sanaButton.style.borderRadius = "10px";
-sanaButton.style.backgroundColor = "#3025c9"; // Rasmdagi to'q ko'k rang
+sanaButton.style.backgroundColor = "#3025c9"; 
 sanaButton.style.color = "white";
 sanaButton.style.border = "none";
 sanaButton.style.cursor = "pointer";
-sanaButton.style.fontSize = "18px"; // Rasmdagi matn o'lchamiga moslandi
+sanaButton.style.fontSize = "18px";
+sanaButton.style.fontSize = "25px" 
 
 // 3. Butun sahifani ekranning o'rtasiga tekislash
 document.body.style.display = "flex";
@@ -98,7 +99,7 @@ sanaButton.addEventListener("click", function () {
 
     // Tugma ichidagi yozuvni bugungi sanaga almashtiramiz
     sanaButton.textContent = kun + "." + oy + "." + yil;
-    
+
     // Tugma rangini yashilga o'zgartiramiz
     sanaButton.style.backgroundColor = "#d80f0c";
     sound.play();
