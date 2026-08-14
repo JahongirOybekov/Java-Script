@@ -59,7 +59,7 @@
 
 
 const div = document.getElementById("katta-div");
-const sanaButton = document.getElementById("sana-btn");
+const sana = document.getElementById("sana-btn");
 const sound = document.getElementById("audio")
 
 div.style.width = "400px";
@@ -70,15 +70,15 @@ div.style.display = "flex";
 div.style.justifyContent = "center";
 div.style.alignItems = "center";
 
-sanaButton.style.width = "250px";
-sanaButton.style.height = "70px";
-sanaButton.style.borderRadius = "10px";
-sanaButton.style.backgroundColor = "#3025c9"; 
-sanaButton.style.color = "white";
-sanaButton.style.border = "none";
-sanaButton.style.cursor = "pointer";
-sanaButton.style.fontSize = "18px";
-sanaButton.style.fontSize = "25px" 
+sana.style.width = "250px";
+sana.style.height = "70px";
+sana.style.borderRadius = "10px";
+sana.style.backgroundColor = "#3025c9"; 
+sana.style.color = "white";
+sana.style.border = "none";
+sana.style.cursor = "pointer";
+sana.style.fontSize = "18px";
+sana.style.fontSize = "25px" 
 
 document.body.style.display = "flex";
 document.body.style.justifyContent = "center";
@@ -86,12 +86,12 @@ document.body.style.alignItems = "center";
 document.body.style.minHeight = "100vh";
 document.body.style.margin = "0";
 
-sanaButton.addEventListener("click", function () {
+sana.addEventListener("click", function () {
     const bugun = new Date();
     const kun = String(bugun.getDate()).padStart(2, '0');
     const oy = String(bugun.getMonth() + 1).padStart(2, '0');
     const yil = bugun.getFullYear();
-    sanaButton.textContent = kun + "." + oy + "." + yil;
-    sanaButton.style.backgroundColor = "#d80f0c";
+    sana.textContent = kun + "." + oy + "." + yil;
+    sana.style.backgroundColor = "#d80f0c";
     sound.play();
 });
