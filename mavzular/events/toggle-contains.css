@@ -6,5 +6,26 @@
 
 .container{
     width: 100%;
-    height: ;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.btn{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.p{
+    text-align: justify;
+    font-size: 20px;
 }
