@@ -1,17 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-    
 
+<body>
+
+    <div id="portfolio-app">
+        <!-- Yuqoridagi Navigatsiya paneli -->
+        <header class="header">
+            <div class="logo">Charlie<span>Rosser</span></div>
+            <nav class="nav-links">
+                <a href="#">Home</a>
+                <a href="#" class="fade-link">Experiences</a>
+                <a href="#" class="fade-link">Portfolio</a>
+                <a href="#" class="fade-link">Certificates</a>
+                <!-- Rejimni o'zgartirish tugmasi -->
+                <button id="mode-btn">🌙 Dark Mode</button>
+            </nav>
+        </header>
+
+        <!-- Asosiy kontent (Matn va Rasm) -->
+        <main class="main-content">
+            <!-- Chap tomondagi matnlar -->
+            <div class="text-column">
+                <h1>Hi, I'm Charlie Rosser - UI/UX Designer</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac vulputate nibh. Aliquam a ante et
+                    leo accumsan suscipit in eu magna. Ut aliquam aliquet elit sit amet pretium. Vestibulum sit amet
+                    ante elementum, vehicula erat nec, dapibus odio. Suspendisse ultricies justo at congue aliquet.
+                    Aenean massa justo, cursus quis rhoncus vel, tempus sed lectus.
+                </p>
+                <div class="btn-group">
+                    <button class="btn-email">✉ Email me</button>
+                    <button id="cv-btn">📥 My CV</button>
+                </div>
+            </div>
+
+            <!-- O'ng tomondagi rasm qismi -->
+            <div class="image-column">
+                <div class="image-wrapper">
+                    <span class="badge">Anonymous</span>
+                    <img src="https://unsplash.com" alt="Designer">
+                </div>
+            </div>
+        </main>
+    </div>
 
 
 
     <script src="./java.js"></script>
 </body>
+
 </html>
