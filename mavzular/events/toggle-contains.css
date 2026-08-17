@@ -1,31 +1,32 @@
-*{ 
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    transition: 1s;
 }
 
-.container{
+.container {
     width: 100%;
     height: 100vh;
     position: relative;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
     padding: 20px;
 }
-
-.btn{
+.btn {
     position: absolute;
     right: 20px;
-    top: 20px;
+    top: 20px; width: 100px; height: 60px; border: none;
+    border-radius: 10px;
+    background-color: transparent;
 }
-
-h1{
+h1 {
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 48px;
 }
-
-.p{
+.p {
     text-align: justify;
     font-size: 20px;
 }
