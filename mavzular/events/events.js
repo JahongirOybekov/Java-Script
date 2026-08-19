@@ -135,45 +135,45 @@
 // });
 
 
-const input = document.querySelector("#todoInput")
-const addBtn = document.querySelector("#addBtn")
-const todoList = document.querySelector("todoList")
-const count = document.querySelector("#count")
+      const input = document.querySelector("#todoInput");
+      const addBtn = document.querySelector("#addBtn");
+      const todoList = document.querySelector("#todoList");
+      const count = document.querySelector("#count");
 
-addBtn.addEventListener("click", addTodo);
+      addBtn.addEventListener("click", addTodo);
 
-function addTodo() {
-    const text = input.value.trim();
+      function addTodo() {
+        const text = input.value.trim();
 
-    if (text === "") {
-        alert("Siz inputga qiymat yozmadingiz!");
-        return;
-    }
+        if (text === "") {
+          alert("Siz inputga qiymat yozmadingiz!");
+          return;
+        }
 
-    const li = document.createElement("li");
-    li.innerHTML = `
+        const li = document.createElement("li");
+        li.innerHTML = `
                 <span>${text}</span>
                 <button class="delete-btn">O'chirish</button>
             `;
 
-    todoList.appendChild(li);
+        todoList.appendChild(li);
 
-    input.value = "";
+        input.value = "";
 
-    updateCount();
+        updateCount();
 
-    li.querySelector("span").addEventListener("click", () => {
-        li.classList.toggle("completed")
-    })
+        li.querySelector("span").addEventListener("click", () => {
+            li.classList.toggle("completed")
+        })
 
-    li.querySelector(".delete-btn").addEventListener("click", () => {
-        li.remove()
-        updateCount()
-    })
+        li.querySelector(".delete-btn").addEventListener("click", () => {
+            li.remove()
+            updateCount()
+        })
 
 
 
-    function updateCount() {
-        count.textContent = todoList.children.length;
-    }
-}
+        function updateCount() {
+          count.textContent = todoList.children.length;
+        }
+      }
