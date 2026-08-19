@@ -166,139 +166,88 @@
 }
 
 body {
-    background-color: #ffd8be; /* Asosiy orqa fon */
-    height: 100vh;
+    background-color: #ffd8be; /* Shaftoli rang fon */
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    padding: 20px;
 }
 
+/* Asosiy blok */
 .login-container {
     display: flex;
+    flex-wrap: wrap; /* Ekran kichrayganda elementlarni suradi */
     background: #ffe3d1;
-    width: 900px;
-    height: 550px;
-    border-radius: 24px;
+    width: 100%;
+    max-width: 850px;
+    border-radius: 20px;
     padding: 20px;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.05);
+    gap: 20px;
 }
 
-/* Chap tomondagi login blok */
+/* Login formasi joylashgan oq karta */
 .login-card {
-    background: rgba(255, 255, 255, 0.45);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    width: 45%;
-    border-radius: 20px;
-    padding: 40px 30px;
+    background: rgba(255, 255, 255, 0.6);
+    flex: 1 1 350px; /* Minimal kengligi 350px, qolgan joyni to'ldiradi */
+    border-radius: 15px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.03);
+    gap: 15px;
 }
 
 .logo {
     color: #ff5722;
-    font-size: 14px;
     font-weight: 500;
+    font-size: 14px;
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 28px;
     color: #222;
-    margin-bottom: 20px;
 }
 
+/* Inputlar uslubi */
 .input-group {
     display: flex;
     flex-direction: column;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .input-group label {
     font-size: 12px;
     color: #555;
-    margin-bottom: 6px;
-    font-weight: 500;
+    margin-bottom: 5px;
 }
 
-.input-group input.pwd-field, 
-.input-group input[type="email"] {
-    width: 100%;
-    padding: 12px 16px;
+.input-group input {
+    padding: 12px;
     border: 1px solid #fff;
-    background: #fff;
     border-radius: 8px;
     font-size: 14px;
     outline: none;
-    transition: 0.3s;
 }
 
 .input-group input:focus {
     border-color: #ff5722;
 }
 
-/* Sof CSSda parolni yashirish/ko'rsatish mantiqi */
-.password-wrapper {
-    position: relative;
-    width: 100%;
-}
-
-.pass-shown {
-    display: none;
-}
-
-.pwd-checkbox {
-    display: none; /* Checkboxni yashiramiz */
-}
-
-.pwd-label {
-    position: absolute;
-    right: 15px;
-    bottom: 12px;
-    cursor: pointer;
-    color: #888;
-    z-index: 5;
-}
-
-.eye-open {
-    display: none;
-}
-
-/* Checkbox bosilgandagi o'zgarishlar */
-.pwd-checkbox:checked ~ .pass-hidden {
-    display: none;
-}
-
-.pwd-checkbox:checked ~ .pass-shown {
-    display: block;
-    border: 1px solid #ff5722;
-}
-
-.pwd-checkbox:checked ~ .pwd-label .eye-close {
-    display: none;
-}
-
-.pwd-checkbox:checked ~ .pwd-label .eye-open {
-    display: inline-block;
-}
-
+/* Parolni unutdingizmi */
 .forgot-pass {
     text-align: right;
-    margin-bottom: 20px;
 }
 
 .forgot-pass a {
     font-size: 12px;
     color: #ff5722;
     text-decoration: none;
-    font-weight: 500;
 }
 
+/* Kirish tugmasi */
 .btn-sign-in {
     width: 100%;
-    padding: 14px;
+    padding: 12px;
     background: #ff5722;
     color: white;
     border: none;
@@ -306,23 +255,17 @@ h2 {
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
-    transition: 0.3s;
 }
 
-.btn-sign-in:hover {
-    background: #e04818;
-}
-
+/* Ajratuvchi chiziq matni */
 .divider {
     text-align: center;
-    margin: 15px 0;
-}
-
-.divider span {
-    font-size: 11px;
+    font-size: 12px;
     color: #777;
+    margin: 5px 0;
 }
 
+/* Ijtimoiy tarmoqlar tugmalari */
 .social-login {
     display: flex;
     justify-content: center;
@@ -333,26 +276,17 @@ h2 {
     width: 50px;
     height: 40px;
     background: #fff;
-    border: 1px solid #eee;
+    border: none;
     border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     cursor: pointer;
     font-size: 16px;
-    transition: 0.3s;
 }
 
-.social-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 5px 10px rgba(0,0,0,0.05);
-}
-
+/* Ro'yxatdan o'tish qismi */
 .register-link {
     text-align: center;
     font-size: 12px;
     color: #555;
-    margin-top: 15px;
 }
 
 .register-link a {
@@ -361,43 +295,16 @@ h2 {
     font-weight: 600;
 }
 
-/* O'ng tomon illyustratsiya */
-.illustration-side {
-    width: 55%;
+/* O'ng tomondagi rasm bloki */
+.image-side {
+    flex: 1 1 350px;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
 }
 
-.main-char {
-    max-width: 85%;
+.image-side img {
+    max-width: 90%;
+    height: auto;
     object-fit: contain;
-    z-index: 2;
-}
-
-/* Uchib yurgan barglar effektlari */
-.leaf {
-    position: absolute;
-    background: #a9df73;
-    border-radius: 50% 0 50% 0;
-    transform: rotate(-45deg);
-}
-.leaf-1 { width: 15px; height: 15px; top: 20%; right: 20%; background: #bada55; }
-.leaf-2 { width: 25px; height: 12px; bottom: 30%; left: 10%; }
-.leaf-3 { width: 18px; height: 18px; top: 40%; left: 5%; }
-
-/* Mobil ekranlar uchun (Responsive) */
-@media (max-width: 768px) {
-    .login-container {
-        width: 90%;
-        height: auto;
-        flex-direction: column;
-    }
-    .login-card {
-        width: 100%;
-    }
-    .illustration-side {
-        display: none; /* Mobil telefonda faqat login qismi ko'rinadi */
-    }
 }
