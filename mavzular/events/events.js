@@ -135,3 +135,7 @@
 // });
 
 
+const input = document.querySelector("#todoInput")
+const addBtn = document.querySelector("#addBtn")
+const todoList = document.querySelector("todoList")
+const count = document.querySelector("#count")
